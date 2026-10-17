@@ -14,7 +14,7 @@ while true; do
   # Split it by space. We're expecting repo URL, branch name and commit hash.
   JOB=($(head -n 1 $QUEUE))
   echo "Processing ${JOB[0]} ${JOB[1]} ${JOB[2]}..."
-  ./build.sh ${JOB[0]} ${JOB[1]} ${JOB[2]}
+  ./build-iso ${JOB[0]} ${JOB[1]} ${JOB[2]}
   echo "Done."
 
   # Remove the job from queue 

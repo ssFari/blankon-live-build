@@ -64,11 +64,11 @@ sudo lb --version
 - `sudo lb config`
 - `sudo lb build`
 
-There is `build.sh` script that could be used to export the result to BlankOn's jahitan-harian directory.
+There is a `build-iso` script that could be used to export the result to BlankOn's jahitan-harian directory.
 
 Simple way
 ```
-bash build.sh
+./build-iso
 ```
 
 ## TODO
